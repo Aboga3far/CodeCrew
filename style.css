@@ -523,12 +523,15 @@
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center;
+            position: relative;
         }
         
         .contact-info {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
+            transform: translateY(-85px);
+            
         }
         
         .contact-item {
